@@ -1,3 +1,5 @@
 .env
 *.mp3
 script_*.txt
+__pycache__/
+*.pyc
