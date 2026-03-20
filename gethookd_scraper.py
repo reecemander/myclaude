@@ -70,7 +70,8 @@ def fetch_explore_page(api_key: str, page: int = 1, per_page: int = 100, **filte
     return resp.json()
 
 
-def fetch_all_ads(api_key: str, max_pages: int = 5, per_page: int = 100, **filters) -> list[dict]:
+def fetch_all_ads(api_key: str, max_pages: int = 5, per_page: int = 100, **filters):
+
     """Fetch multiple pages of ads and return combined list."""
     all_ads = []
 
