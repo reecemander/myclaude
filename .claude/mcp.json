@@ -3,7 +3,7 @@
     "apify": {
       "url": "https://mcp.apify.com/sse",
       "headers": {
-        "Authorization": "Bearer YOUR_APIFY_TOKEN"
+        "Authorization": "Bearer ${APIFY_TOKEN}"
       }
     }
   }
