@@ -1,0 +1,6 @@
+# cold-email-builder local data store (archived emails, profile, locks) — stays local
+Claude HQ/
+
+# python bytecode
+__pycache__/
+*.pyc
